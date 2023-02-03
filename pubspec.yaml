@@ -1,0 +1,66 @@
+name: clone
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^1.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/imagess.jpg
+    - assets/icons/action.svg
+    - assets/icons/add.svg
+    - assets/icons/bell.svg
+    - assets/icons/comment.svg
+    - assets/icons/down.svg
+    - assets/icons/heart.svg
+    - assets/icons/home.svg
+    - assets/icons/like.svg
+    - assets/icons/mail.svg
+    - assets/icons/search.svg
+    - assets/icons/share.svg
+    - assets/icons/tick.svg
+    - assets/icons/retweet.svg
+    - assets/icons/aa.jpg
+    - assets/icons/Abror.jpg
+    - assets/icons/Asatbek.jpg
+    - assets/icons/davron.jpg
+    - assets/icons/fahridin.jpg
+    - assets/icons/hasan.jpg
+    - assets/icons/golib.jpg
+
+  #   - images/a_dot_ham.jpeg
+
+  
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
